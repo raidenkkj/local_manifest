@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-            
-  <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="eleven" />
-  <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="11" />
-  <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
+ <!-- Trees -->
+ <project path="device/asus/A001D" name="raidenkkj/android_device_asus_A001D.git" remote="github" revision="lineage-18.1" />
+ <project path="vendor/asus/A001D" name="raidenkkj/vendor_asus_A001D.git" remote="github" revision="lineage-18.1" />
+ <project path="kernel/asus/A001D" name="raidenkkj/kernel_asus_A001D.git" remote="github" revision="11" />
+ 
+ <remove-project name="ForkLineageOS/android_hardware_qcom_audio" />
+ <remove-project name="ForkLineageOS/android_hardware_qcom_media" />
+ <remove-project name="ForkLineageOS/android_hardware_qcom_display" />
+ <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-18.1-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-18.1-caf-msm8996" />
+ <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-18.1-caf-msm8996" />
 </manifest>
