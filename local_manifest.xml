@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-            
-  <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="lineage-18.1" />
-  <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="lineage-18.1" />
-  <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
-</manifest>
