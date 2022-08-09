@@ -4,8 +4,8 @@
 
 <!-- Remotes -->
     
-        <remote name="RiceDroid"
-                fetch="https://github.com/RiceDroid" />
+        <remote name="LineageOS"
+                fetch="https://github.com/LineageOS" />
     
         <remote name="audio"
                 fetch="https://github.com/mi-thorium" />
@@ -36,8 +36,8 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="RiceDroid/android_hardware_qcom_wlan" />
-        <remove-project name="RiceDroid/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
 <!-- Addition -->
 	
