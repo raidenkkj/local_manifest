@@ -5,7 +5,7 @@
 <!-- Remotes -->
     
         <remote name="rice"
-                fetch="https://github.com/RiceDroid
+                fetch="https://github.com/RiceDroid"
 
         <remote name="audio"
                 fetch="https://github.com/mi-thorium" />
