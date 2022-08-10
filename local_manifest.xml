@@ -3,9 +3,6 @@
 <manifest>
 
 <!-- Remotes -->
-    
-        <remote name="rice"
-                fetch="https://github.com/RiceDroid"
 
         <remote name="audio"
                 fetch="https://github.com/mi-thorium" />
@@ -36,8 +33,8 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="RiceDroid/android_hardware_qcom_wlan" remote="rice" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="RiceDroid/android_hardware_qcom_wlan" />
+        <remove-project name="RiceDroid/android_hardware_qcom_audio" />
 
 <!-- Addition -->
 	
