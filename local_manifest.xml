@@ -33,7 +33,7 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="crdroidandroid/android_hardware_qcom_wlan" />
+        <remove-project name="RiceDroid/android_hardware_qcom_wlan" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
 <!-- Addition -->
