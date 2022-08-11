@@ -15,9 +15,6 @@
     
         <remote name="fm"
                 fetch="https://github.com/arrowos" />
-        
-        <remote name="mi"
-                fetch="https://github.com/mi-msm8937" />
             
 <!-- Device Trees -->
     
