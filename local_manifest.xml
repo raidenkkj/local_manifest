@@ -5,10 +5,10 @@
 <!-- Remotes -->
 
         <remote name="mi439"
-                fetch="https://github.com/mi-sdm439"
+                fetch="https://github.com/mi-sdm439" />
 
         <remote name="mit"
-                fetch="https://github.com/Mi-Thorium"
+                fetch="https://github.com/Mi-Thorium" />
     
         <remote name="randomas"
                 fetch="https://github.com/randomas3000" />
