@@ -9,9 +9,6 @@
 
         <remote name="mit"
                 fetch="https://github.com/Mi-Thorium"
-
-        <remote name="audio"
-                fetch="https://github.com/mi-thorium" />
     
         <remote name="randomas"
                 fetch="https://github.com/randomas3000" />
@@ -45,7 +42,7 @@
 <!-- Addition -->
 	
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
-	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="audio" revision="lineage-19.1-caf-msm8953" />
+	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mit" revision="lineage-19.1-caf-msm8953" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
 </manifest>
