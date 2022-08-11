@@ -4,6 +4,12 @@
 
 <!-- Remotes -->
 
+        <remote name="mi439"
+                fetch="https://github.com/mi-sdm439"
+
+        <remote name="mit"
+                fetch="https://github.com/Mi-Thorium"
+
         <remote name="audio"
                 fetch="https://github.com/mi-thorium" />
     
@@ -18,18 +24,18 @@
             
 <!-- Device Trees -->
     
-        <project path="device/xiaomi/Mi439" name="device_xiaomi_Mi439" remote="randomas" revision="12.1" />   
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="randomas" revision="12.1" />
+        <project path="device/xiaomi/Mi439" name="device_xiaomi_Mi439" remote="mit" revision="12.1" />   
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="mit" revision="12.1" />
     
     	
 <!-- Kernels -->
     
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="randomas" revision="a12/main"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="mi439" revision="a12/main"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     
-        <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="randomas" revision="12.1" clone-depth="1" /> 
-        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="randomas" revision="12.1" clone-depth="1" />
+        <project path="vendor/xiaomi/Mi439"  name="vendor_xiaomi_Mi439" remote="mit" revision="12.1" clone-depth="1" /> 
+        <project path="vendor/xiaomi/mithorium-common"  name="vendor_xiaomi_mithorium-common" remote="mit" revision="12.1" clone-depth="1" />
     
 <!-- Remove HALs -->
 
