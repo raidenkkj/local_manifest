@@ -15,11 +15,10 @@
    
 <!-- Removals -->
 
-   <remove-project name="packages/inputmethods/LatinIME" />
+   
 
 <!-- Additions -->
 
-   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" revision="arrow-11" />
    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" revision="eleven"/>
 
 </manifest>
