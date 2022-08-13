@@ -35,7 +35,7 @@
         <remove-project name="RiceDroid/android_hardware_qcom_wlan" />
         <remove-project name="LineageOS/android_hardware_qcom_audio" />
 
-<!-- Remove RiceDroid Vendor
+<!-- Remove RiceDroid Vendor -->
 
         <remove-project name="RiceDroid/android_vendor_rice" />
 
