@@ -5,12 +5,14 @@
 
    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
    <remove name="arrow" fetch="https://github.com/ArrowOS" />
- 
+   <remote name="pixel" fetch="https://github.com/PixelExperience" />
+
 <!-- Device Tree -->
 
    <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="eleven" />
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="eleven" />
    <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
+   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" revision="eleven"/>
 
 <!-- Additions -->
 
