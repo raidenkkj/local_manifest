@@ -13,10 +13,13 @@
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="eleven" />
    <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
    
+<!-- Removals -->
+
+   <remove-project name="packages/inputmethods/LatinIME" />
+
 <!-- Additions -->
 
    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" revision="arrow-11" />
    <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" revision="eleven"/>
-
 
 </manifest>
