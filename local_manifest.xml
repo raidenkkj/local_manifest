@@ -4,7 +4,6 @@
 <!-- Remotes -->
 
    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-   <remove name="arrow" fetch="https://github.com/ArrowOS" />
    <remote name="pixel" fetch="https://github.com/PixelExperience" />
 
 <!-- Device Tree -->
