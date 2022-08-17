@@ -15,10 +15,13 @@
     
         <remote name="fm"
                 fetch="https://github.com/arrowos" />
+       
+        <remote name="raiden"
+                fetch="https://github.com/raidenkkj" />
             
 <!-- Device Trees -->
     
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="mit" revision="a12/master" />   
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a12/master" />   
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="mit" revision="a12/master" />
     
 <!-- Kernels -->
