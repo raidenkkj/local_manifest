@@ -48,7 +48,6 @@
 		
 <!-- Addition -->
 
-	<project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
 	<project path="vendor/lineage" name="android_vendor_rice" remote="raiden" revision="twelve" />
         <project path="system/core" name="rice_system_core" remote="randomas" revision="twelve" />
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
