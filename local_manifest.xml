@@ -48,6 +48,7 @@
 		
 <!-- Addition -->
 
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" />
 	<project path="vendor/lineage" name="vendor_rice" remote="randomas" revision="twelve" />
         <project path="system/core" name="rice_system_core" remote="randomas" revision="twelve" />
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
