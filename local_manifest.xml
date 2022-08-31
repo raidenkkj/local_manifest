@@ -17,7 +17,7 @@
                 fetch="https://github.com/arrowos" />
         
         <remote name="raiden"
-                fetch="https://github.com/raidenkkj" /
+                fetch="https://github.com/raidenkkj" />
             
 <!-- Device Trees -->
     
