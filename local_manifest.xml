@@ -21,7 +21,10 @@
 
         <remote name="arrow"
                 fetch="https://github.com/ArrowOS-Devices" />
-       
+         
+        <remote name="arw"
+                fetch="https://gitlab.com/arrowos-project" />
+
 <!-- Device Trees -->
     
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a12/master" />   
@@ -51,7 +54,7 @@
 		
 <!-- Addition -->
         
-        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arrow" revision="master" /> 
+        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" /> 
         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="ArrowOS-Devices/android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />  
 	<project path="vendor/lineage" name="android_vendor_rice" remote="raiden" revision="twelve" />
         <project path="system/core" name="rice_system_core" remote="randomas" revision="twelve" />
