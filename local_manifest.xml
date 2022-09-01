@@ -52,7 +52,7 @@
 
         <remove-project name="RiceDroid/android_system_core" />
 
-<!-- Remove RiceDroid android_frameworks_base
+<!-- Remove RiceDroid android_frameworks_base -->
  
         <remove-project name="RiceDroid/android_frameworks_base" />
 		
