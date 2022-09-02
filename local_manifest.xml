@@ -51,10 +51,6 @@
 <!-- Remove RiceDroid android_system_core -->
 
         <remove-project name="RiceDroid/android_system_core" />
-
-<!-- Remove RiceDroid android_frameworks_base -->
- 
-        <remove-project name="RiceDroid/android_frameworks_base" />
 		
 <!-- Addition -->
         
@@ -63,7 +59,6 @@
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" /> 
 	<project path="vendor/lineage" name="android_vendor_rice" remote="raiden" revision="twelve" />
         <project path="system/core" name="rice_system_core" remote="randomas" revision="twelve" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="raiden" revision="twelve" />
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
 	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mit" revision="lineage-19.1-caf-msm8953" />
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
