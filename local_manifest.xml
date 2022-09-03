@@ -46,7 +46,7 @@
 
 <!-- Remove ForkLineageOS Vendor -->
 
-        <remove-project name="LineageOS/android_vendor_rice" />
+        <remove-project name="LineageOS/android_vendor_lineage" />
 
 <!-- Remove ForkLineageOS android_system_core -->
 
