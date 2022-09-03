@@ -12,9 +12,6 @@
     
         <remote name="randomas"
                 fetch="https://github.com/randomas3000" />
-    
-        <remote name="fm"
-                fetch="https://github.com/arrowos" />
         
         <remote name="raiden"
                 fetch="https://github.com/raidenkkj" />
