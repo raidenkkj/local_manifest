@@ -46,11 +46,15 @@
 
 <!-- Remove ForkLineageOS Vendor -->
 
-        <remove-project name="android_vendor_lineage" />
+        <remove-project name="ForkLineageOS/android_vendor_lineage" />
 
 <!-- Remove ForkLineageOS android_system_core -->
 
-        <remove-project name="android_system_core" />
+        <remove-project name="ForkLineageOS/android_system_core" />
+
+<!-- Remove ForkLineageOS libfmjni -->
+
+        <remove-project name="platform_vendor_qcom_opensource_libfmjni" />
 		
 <!-- Addition -->
         
