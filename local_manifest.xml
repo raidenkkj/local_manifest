@@ -38,7 +38,7 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="android_hardware_qcom_wlan" />
+        <remove-project name="android_hardware_qcom-caf_wlan" />
         <remove-project name="android_hardware_qcom_audio" />
 
 <!-- Remove DotOS Vendor -->
