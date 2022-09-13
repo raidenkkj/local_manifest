@@ -46,7 +46,7 @@
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
 	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
         <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
-	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="me" revision="13-wlan"/>
+	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan"/>
 	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="raiden" revision="audio"/>
 	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media"/>
 	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="raiden" revision="display"/>
