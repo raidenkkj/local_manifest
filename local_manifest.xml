@@ -9,7 +9,7 @@
         <remote name="mit"
                 fetch="https://github.com/Mi-Thorium" />
         <remote name="randomas"
-                fetch="https://github.com/randomas3000" />   
+                fetch="https://github.com/randomas3000" />
         <remote name="raiden"
                 fetch="https://github.com/raidenkkj" />
         <remote name="fm"
@@ -36,7 +36,6 @@
 <!-- Remove HALs -->
 
         <remove-project name="xd_hardware_qcom-caf_wlan" />
-        <remove-project name="android_hardware_qcom_audio" />
 
 <!-- Remove XdroidOSS Vendor -->
 
@@ -53,8 +52,10 @@
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
 	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
         <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
-	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
-	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mit" revision="lineage-19.1-caf-msm8953" />
+	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="me" revision="13-wlan"/>
+	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="raiden" revision="audio"/>
+	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media"/>
+	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="raiden" revision="display"/>
 	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
         
