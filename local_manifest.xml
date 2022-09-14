@@ -18,7 +18,7 @@
 <!-- Device Trees -->
     
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/xdroid" />
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="mit" revision="a12/master" />
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/xdroid" />
     
 <!-- Kernels -->
     
