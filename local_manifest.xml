@@ -43,6 +43,7 @@
 		
 <!-- Addition -->
         
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="raiden" revision="arrow-11.0" />
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
 	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
         <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
