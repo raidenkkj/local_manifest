@@ -4,8 +4,8 @@
 <!-- Remotes -->
 
    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-   <remove name="arrow" fetch="https://github.com/ArrowOS" />
-   <remote name="pixel" fetch="https://github.com/PixelExperience" />
+#   <remove name="arrow" fetch="https://github.com/ArrowOS" />
+#   <remote name="pixel" fetch="https://github.com/PixelExperience" />
 
 <!-- Device Tree -->
 
@@ -15,11 +15,11 @@
    
 <!-- Removals -->
 
-   <remove-project name="packages/inputmethods/LatinIME" />
+#   <remove-project name="packages/inputmethods/LatinIME" />
 
 <!-- Additions -->
 
-   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" revision="arrow-11" />
-   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" revision="eleven"/>
+#   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="arrow" revision="arrow-11" />
+#   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" revision="eleven"/>
 
 </manifest>
