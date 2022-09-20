@@ -4,9 +4,6 @@
 
 <!-- Remotes -->
 
-        <remote name="mi439"
-                fetch="https://github.com/mi-sdm439" />
-
         <remote name="mit"
                 fetch="https://github.com/Mi-Thorium" />
     
@@ -29,7 +26,7 @@
     
 <!-- Kernels -->
     
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="mi439" revision="a12/main"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="raiden" revision="inline/teyvat3"  clone-depth="1" />
            
 <!-- Vendor Trees -->
     
