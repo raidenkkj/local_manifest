@@ -7,9 +7,6 @@
         <remote name="mit"
                 fetch="https://github.com/Mi-Thorium" />
     
-        <remote name="randomas"
-                fetch="https://github.com/randomas3000" />
-        
         <remote name="raiden"
                 fetch="https://github.com/raidenkkj" />
 
@@ -24,14 +21,14 @@
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a12/forklineage" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="mit" revision="a12/master" />
     
-<!-- Kernels -->
+<!-- Kernel -->
     
-        <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="raiden" revision="inline/teyvat3"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="a12/main" clone-depth="1" />
            
 <!-- Vendor Trees -->
     
-        <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
-        <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master" clone-depth="1" />
+        <project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
+        <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master" clone-depth="1" />
     
 <!-- Remove HALs -->
 
@@ -53,9 +50,9 @@
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" /> 
 	<project path="vendor/lineage" name="android_vendor_flos" remote="raiden" revision="lineage-19.1" />
         <project path="system/core" name="android_system_core" remote="raiden" revision="lineage-19.1" />
-	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="randomas" revision="lineage-19.1-caf"/>
-	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mit" revision="lineage-19.1-caf-msm8953" />
-	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
+	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="raiden" revision="lineage-19.1-caf"/>
+	<project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="raiden" revision="lineage-19.1-caf-msm8953" />
+	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
         
 </manifest>
 
