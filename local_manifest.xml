@@ -14,6 +14,10 @@
                 fetch="https://github.com/raidenkkj" />
         <remote name="fm"
                 fetch="https://github.com/arrowos" />
+        <remote name="arrow"
+                fetch="https://github.com/ArrowOS-Devices" />  
+        <remote name="arw"
+                fetch="https://gitlab.com/arrowos-project" />
 
 <!-- Device Trees -->
     
@@ -22,7 +26,7 @@
     
 <!-- Kernels -->
     
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="mi439" revision="a12/main"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="mi439" revision="a12/main" clone-depth="1" />
            
 <!-- Vendor Trees -->
     
@@ -31,22 +35,26 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="xd_hardware_qcom-caf_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
 
-<!-- Remove XdroidOSS Vendor -->
+<!-- Remove RiceDroid Vendor -->
 
-        <remove-project name="xd_vendor_xdroid" />
+        <remove-project name="RiceDroid/android_vendor_rice" />
 
-<!-- Remove XdroidOSS android_system_core -->
+<!-- Remove RiceDroid android_system_core -->
 
-        <remove-project name="xd_system_core" />
+        <remove-project name="RiceDroid/android_system_core" />
+
+<!-- Remove RiceDroid android_hardware_qcom_display -->
+
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
 		
 <!-- Addition -->
         
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="raiden" revision="arrow-11.0" />
-        <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
-	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
-        <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r437112b" name="android_prebuilts_clang_host_linux-x86_clang-r437112b" remote="arw" revision="master" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />	<project path="vendor/lineage" name="ricedroid_vendor" remote="raiden" revision="thirteen" />
+        <project path="vendor/lineage" name="ricedroid_vendor" remote="raiden" revision="thirteen" />
+        <project path="system/core" name="android_system_core" remote="raiden" revision="thirteen" />
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan"/>
 	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="raiden" revision="audio"/>
 	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media"/>
