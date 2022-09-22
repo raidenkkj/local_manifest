@@ -4,7 +4,7 @@
 <!-- Remotes -->
 
    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-   <remote mame="gui" fetch="https://github.com/GuilianoS" />
+   <remote name="gui" fetch="https://github.com/GuilianoS" />
    <remote name="lineage" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
