@@ -8,17 +8,13 @@
                 fetch="https://github.com/mi-sdm439" />
         <remote name="mit"
                 fetch="https://github.com/Mi-Thorium" />
-        <remote name="randomas"
-                fetch="https://github.com/randomas3000" />
         <remote name="raiden"
                 fetch="https://github.com/raidenkkj" />
-        <remote name="fm"
-                fetch="https://github.com/arrowos" />
 
 <!-- Device Trees -->
     
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/xdroid" />
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/xdroid" />
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/cherish13" />
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/staging" />
     
 <!-- Kernels -->
     
@@ -31,28 +27,27 @@
     
 <!-- Remove HALs -->
 
-        <remove-project name="xd_hardware_qcom-caf_wlan" />
+        <remove-project name="ArrowOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_audio" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
 
-<!-- Remove XdroidOSS Vendor -->
+<!-- Remove CherishOS Vendor -->
 
-        <remove-project name="xd_vendor_xdroid" />
+        <remove-project name="android_vendor_cherish" />
 
-<!-- Remove XdroidOSS android_system_core -->
+<!-- Remove CherishOS android_system_core -->
 
-        <remove-project name="xd_system_core" />
+        <remove-project name="android_system_core" />
 		
 <!-- Addition -->
         
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="raiden" revision="arrow-11.0" />
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
-	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
-        <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
+	<project path="vendor/cherish" name="android_vendor_cherish" remote="raiden" revision="tiramisu" />
+        <project path="system/core" name="android_system_core" remote="raiden" revision="tiramisu" />
 	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan"/>
 	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="raiden" revision="audio"/>
 	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media"/>
 	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="raiden" revision="display"/>
-	<project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="randomas" revision="lineage-18.1" />
-        <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="fm" revision="arrow-12.1" />
-        
+	
 </manifest>
-
