@@ -54,7 +54,6 @@
 	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media" />
 	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="raiden" revision="display" />
 
-
 <!-- Extras -->
         
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
