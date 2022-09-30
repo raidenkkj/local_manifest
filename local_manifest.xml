@@ -6,7 +6,7 @@
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="aospc" fetch="https://gitlab.com/reinazhard" />
 
 <!-- Device Trees -->
 
@@ -37,9 +37,9 @@
 
         <remove-project name="android_system_core" />
 
-<!-- Proton -->
+<!-- AOSP Clang -->
 
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r468909" name="aosp-clang" remote="aospc" revision="master" depth="1" />
 
 <!-- Patches -->
 
