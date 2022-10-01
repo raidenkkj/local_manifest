@@ -25,9 +25,6 @@
 <!-- Remove HALs -->
 
         <remove-project name="ArrowOS/android_hardware_qcom_wlan" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
 
 <!-- Remove CherishOS Vendor -->
 
@@ -49,9 +46,7 @@
 <!-- HALs -->
 
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
-	<project path="hardware/qcom-caf/msm8953/audio" name="msm8953_hals" remote="raiden" revision="audio" />
-	<project path="hardware/qcom-caf/msm8953/media" name="msm8953_hals" remote="raiden" revision="media" />
-	<project path="hardware/qcom-caf/msm8953/display" name="msm8953_hals" remote="raiden" revision="display" />
+	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" />
 
 <!-- Extras -->
 
