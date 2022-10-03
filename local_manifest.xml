@@ -15,7 +15,7 @@
 <!-- Removal of HALs -->
 
    <remove-project name="LineageOS/android_hardware_qcom_audio" />
-   <remove-project name="LineageOS/android_hardware_qcom_media" />
+   <remove-project name="PixelExperience/hardware_qcom-caf_msm8996-r_media" />
    <remove-project name="PixelExperience/hardware_qcom-caf_msm8996-r_display" />
 
 <!-- HALs -->
