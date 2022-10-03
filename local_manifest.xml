@@ -3,7 +3,6 @@
 
 <!-- Remotes -->
 
-   <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
    <remote name="gui" fetch="https://github.com/GuilianoS" />
    <remote name="lineage" fetch="https://github.com/LineageOS" />
 
@@ -15,9 +14,9 @@
  
 <!-- Removal of HALs -->
 
-   <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
-   <remove-project name="crdroidandroid/android_hardware_qcom_media" />
-   <remove-project name="crdroidandroid/android_hardware_qcom_display" />
+   <remove-project name="LineageOS/android_hardware_qcom_audio" />
+   <remove-project name="LineageOS/android_hardware_qcom_media" />
+   <remove-project name="LineageOS/android_hardware_qcom_display" />
 
 <!-- HALs -->
 
