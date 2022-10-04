@@ -4,6 +4,7 @@
 <!-- Remotes -->
 
    <remote name="raiden" fetch="https://github.com/raidenkkj" />
+   <remote name="linlin" fetch="https://github.com/LineageOS" />
 
  <!-- Trees -->
 
@@ -14,5 +15,9 @@
 <!-- Removal of HALs -->
 
 <!-- HALs -->
+
+<!-- Extras -->
+
+   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="linlin" />
 
 </manifest>
