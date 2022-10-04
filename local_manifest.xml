@@ -7,6 +7,7 @@
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="blaze" fetch="https://github.com/blazey66" />
 
 <!-- Device Trees -->
 
@@ -55,6 +56,7 @@
 
 <!-- Extras -->
 
+        <project path="vendor/lawnchair" name="vendor_lawnchair" remote="blaze" revision="12.1" />
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="raiden" revision="arrow-11.0" />
