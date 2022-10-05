@@ -4,8 +4,7 @@
 <!-- Remotes -->
 
    <remote name="raidenkkj" fetch="https://github.com/raidenkkj" />
-   <remote name="lineage" fetch="https://github.com/LineageOS" />
-
+   
  <!-- Trees -->
 
    <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raiden" revision="lineage-18.1" />
