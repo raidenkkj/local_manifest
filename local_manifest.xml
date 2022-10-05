@@ -5,6 +5,7 @@
 
    <remote name="raiden" fetch="https://github.com/raidenkkj" />
    <remote name="linlin" fetch="https://github.com/LineageOS" />
+   <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
 
  <!-- Trees -->
 
@@ -12,6 +13,11 @@
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raiden" revision="a11/rom/xdroid" />
    <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raiden" revision="11" />
  
+
+<!-- Proton Clang -->
+
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />  
+
 <!-- Removal of HALs -->
 
 <!-- HALs -->
