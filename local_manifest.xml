@@ -13,7 +13,6 @@
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raiden" revision="a11/rom/xdroid" />
    <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raiden" revision="11" />
  
-
 <!-- Proton Clang -->
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />  
@@ -23,7 +22,9 @@
 <!-- HALs -->
 
 <!-- Extras -->
-
+  
+   <remove-project name="xd_vendor_xdroid" />
+   <project path="vendor/xdroid" name="xd_vendor_xdroidd" revision="eleven" remote="raiden" />
    <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="linlin" />
 
 </manifest>
