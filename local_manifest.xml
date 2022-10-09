@@ -8,6 +8,7 @@
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+        <remote name="lng" fetch="https://github.com/LineageOS"
 
 <!-- Device Trees -->
 
@@ -40,7 +41,8 @@
         <remove-project name="xd_system_core" />
 		
 <!-- Addition -->
-        
+     
+        <project Path="vendor/lineage/config" name="device_framework_matrix.xml" remote="lng" revision="lineage-20.0" />
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
 	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
         <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
