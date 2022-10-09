@@ -7,7 +7,6 @@
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         
 <!-- Device Trees -->
 
@@ -22,10 +21,6 @@
 
         <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
         <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master" clone-depth="1" />
-
-<!-- Proton Clang -->
-
-        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" />
 
 <!-- Remove HALs -->
 
