@@ -8,7 +8,7 @@
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
-        <remote name="lng" fetch="https://github.com/LineageOS"
+        <remote name="lng" fetch="https://github.com/LineageOS" />
 
 <!-- Device Trees -->
 
