@@ -19,7 +19,7 @@
 <!-- Vendor Trees -->
 
         <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
-        <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master" clone-depth="1" />
+        <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="raiden" revision="a12/master" clone-depth="1" />
 
 <!-- Remove HALs -->
 
