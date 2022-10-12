@@ -37,7 +37,7 @@
 
 <!-- Patches -->
 
-        <project path="vendor/derp" name="vendor_derpfesr" remote="raiden" revision="13" />
+        <project path="vendor/derp" name="vendor_derpfest" remote="raiden" revision="13" />
         <project path="system/core" name="android_system_core" remote="raiden" revision="13" />
 
 <!-- HALs -->
