@@ -6,54 +6,51 @@
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        
+        <remote name="raiden2" fetch="https://gitlab.com/raidenkkj" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
+
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/projectblaze" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/staging" />
 
-<!-- Kernels -->
+<!-- Kernel -->
 
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="tiramisu"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="a12/main"  clone-depth="1" />
 
 <!-- Vendor Trees -->
 
         <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
         <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="raiden" revision="a12/master" clone-depth="1" />
 
-<!-- Remove HALs -->
+<!-- Remove WLan HAL -->
 
-        <remove-project name="ArrowOS/android_hardware_qcom_wlan" />
+        <remove-project name="hardware_qcom_wlan" />
 
-<!-- Remove CherishOS Vendor -->
+<!-- Remove ProjectBlaze Vendor -->
 
-        <remove-project name="android_vendor_cherish" />
+        <remove-project name="vendor_blaze" />
 
-<!-- Remove CherishOS android_system_core -->
+<!-- Remove ProjectBlaze system core -->
 
-        <remove-project name="android_system_core" />
+        <remove-project name="system_core" />
 
 <!-- Proton Clang -->
 
+<!--    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" depth="1" /> -->
+
 <!-- Patches -->
 
-        <project path="vendor/cherish" name="android_vendor_cherish" remote="raiden" revision="tiramisu" />
-        <project path="system/core" name="android_system_core" remote="raiden" revision="tiramisu" />
+        <project path="vendor/blaze" name="vendor_blaze" remote="raiden" revision="13" />
+        <project path="system/core" name="system_core_blaze" remote="raiden2" revision="13" />
 
 <!-- HALs -->
 
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
 	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" />
 
-<!-- Cherish Sepolicy -->
-
-        <remove-project name="android_device_cherish_sepolicy" />
-        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="raiden" revision="tiramisu" />
-
 <!-- Extras -->
 
         <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
-        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
-        <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="raiden" revision="arrow-11.0" />
 
 </manifest>
