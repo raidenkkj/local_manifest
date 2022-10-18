@@ -52,7 +52,7 @@
 
 <!-- Extras -->
 
-        <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
+<!--        <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" /> -->
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="raiden" revision="arrow-11.0" />
 
