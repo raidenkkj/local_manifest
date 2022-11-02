@@ -9,7 +9,7 @@
         
 <!-- Device Trees -->
 
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/carbon" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/staging" />
 
 <!-- Kernel -->
@@ -23,40 +23,30 @@
 
 <!-- Remove HALs -->
 
-        <remove-project name="ArrowOS/android_hardware_qcom_wlan" />
+        <remove-project name="LineageOS/android_hardware_qcom_wlan" />
 
-<!-- Remove CherishOS Vendor -->
+<!-- Remove Carbon Vendor -->
 
-        <remove-project name="android_vendor_cherish" />
+        <remove-project name="CarbonROM/android_vendor_carbon" />
 
-<!-- Remove CherishOS android_system_core -->
+<!-- Remove Carbon system core -->
 
-        <remove-project name="android_system_core" />
-
-<!-- Remove CherishOS OTA -->
-
-        <remove-project name="OTA" />
+        <remove-project name="CarbonROM/android_system_core" />
 
 <!-- Proton Clang -->
 
 <!-- Patches -->
 
-        <project path="vendor/cherish" name="android_vendor_cherish" remote="raiden" revision="tiramisu" />
-        <project path="system/core" name="android_system_core" remote="raiden" revision="tiramisu" />
+        <project path="vendor/carbon" name="android_vendor_carbon" remote="raiden" revision="cr-11.0" />
+        <project path="system/core" name="carbon_android_system_core" remote="raiden" revision="cr-11.0" />
 
 <!-- HALs -->
 
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
 	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" />
 
-<!-- Cherish Sepolicy -->
-
-        <remove-project name="android_device_cherish_sepolicy" />
-        <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="raiden" revision="tiramisu" />
-
 <!-- Extras -->
 
-        <project path="vendor/OTA" name="OTA" remote="raiden" revision="tiramisu" />
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="raiden" revision="arrow-11.0" />
 
