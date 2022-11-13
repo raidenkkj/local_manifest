@@ -5,10 +5,11 @@
 
    <remote name="register" fetch="https://github.com/RESISTERR" />
    <remote name="linag" fetch="https://github.com/LineageOS" />
+   <remote name="braia" fetch="https://github.com/Antony-Braiano" />
 
  <!-- Trees -->
 
-   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="register" revision="thirteen" />
+   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="braia" revision="13" />
    <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="register" revision="thirteen" />
    <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="register" revision="thirteen" />
 
