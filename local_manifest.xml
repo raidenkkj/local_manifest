@@ -5,6 +5,7 @@
 
    <remote name="register" fetch="https://github.com/RESISTERR" />
    <remote name="linag" fetch="https://github.com/LineageOS" />
+
  <!-- Trees -->
 
    <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="register" revision="thirteen" />
