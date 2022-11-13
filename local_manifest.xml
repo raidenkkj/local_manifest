@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Remotes -->
+ <!-- Remotes -->
 
-   <remote name="raiden" fetch="https://github.com/raidenkkj" />
-   <remote name="lineage" fetch="https://github.com/LineageOS" />
-
+   <remote name="register" fetch="https://github.com/RESISTERR" />
+   <remote name="linag" fetch="https://github.com/LineageOS" />
  <!-- Trees -->
 
-   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raiden" revision="lineage-18.1" />
-   <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raiden" revision="lineage-18.1" />
-   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raiden" revision="11" />
- 
-<!-- Removal of HALs -->
+   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="register" revision="thirteen" />
+   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="register" revision="thirteen" />
+   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="register" revision="thirteen" />
 
-<!-- HALs -->
+ <!-- Hardware xiaomi -->
+
+   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="linag" revision="lineage-20" />
+ 
+ <!-- Removal of HALs -->
+
+ <!-- HALs -->
 
 </manifest>
