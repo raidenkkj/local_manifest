@@ -10,11 +10,11 @@
 <!-- Device Trees -->
 
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
-        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/staging" />
+        <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="C-13.0" />
 
 <!-- Kernel -->
 
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="a12/main"  clone-depth="1" />
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="13.0"  clone-depth="1" />
 
 <!-- Vendor Trees -->
 
