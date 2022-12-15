@@ -6,7 +6,8 @@
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        
+        <remote name="suraj" fetch="https://gitlab.com/ImSurajxD" />
+
 <!-- Device Trees -->
 
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
@@ -39,7 +40,7 @@
 
 <!-- Clang -->
 
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="raiden" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="suraj" revision="master" clone-depth="1" />
 
 <!-- Proton Clang -->
 
