@@ -2,64 +2,70 @@
 
 <manifest>
 
-<!-- Remotes -->
+        <!-- Remotes -->
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
         <remote name="suraj" fetch="https://gitlab.com/ImSurajxD" />
+        <remote name="arrws" fetch="https://github.com/ArrowOS" />
 
-<!-- Device Trees -->
+        <!-- Device Trees -->
 
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="C-13.0" />
 
-<!-- Kernel -->
+        <!-- Kernel -->
 
         <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="13.0"  clone-depth="1" />
 
-<!-- Vendor Trees -->
+        <!-- Vendor Trees -->
 
         <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
         <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="raiden" revision="a12/master" clone-depth="1" />
 
-<!-- Remove HALs -->
+        <!-- Remove HALs -->
 
         <remove-project name="ArrowOS/android_hardware_qcom_wlan" />
 
-<!-- Remove CherishOS Vendor -->
+        <!-- Remove CherishOS Vendor -->
 
         <remove-project name="android_vendor_cherish" />
 
-<!-- Remove CherishOS android_system_core -->
+        <!-- Remove CherishOS android_system_core -->
 
         <remove-project name="android_system_core" />
 
-<!-- Remove CherishOS OTA -->
+        <!-- Remove CherishOS OTA -->
 
         <remove-project name="OTA" />
 
-<!-- Clang -->
+        <!-- Remove android_hardware_qcom_data_ipacfg-mgr -->
+
+        <remove-project name="android_hardware_qcom_data_ipacfg-mgr" />
+
+        <!-- Clang -->
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="suraj" revision="master" clone-depth="1" />
 
-<!-- Proton Clang -->
+        <!-- Proton Clang -->
 
-<!-- Patches -->
+        <!-- Patches -->
 
+        <project path="hardware/qcom/data/ipacfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrws" revision="arrow-13.0" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="raiden" revision="tiramisu" />
         <project path="system/core" name="android_system_core" remote="raiden" revision="tiramisu" />
 
-<!-- HALs -->
+        <!-- HALs -->
 
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
-	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" />
+        <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" />
 
-<!-- Cherish Sepolicy -->
+        <!-- Cherish Sepolicy -->
 
         <remove-project name="android_device_cherish_sepolicy" />
         <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="raiden" revision="tiramisu" />
 
-<!-- Extras -->
+        <!-- Extras -->
 
         <project path="vendor/OTA" name="OTA" remote="raiden" revision="tiramisu" />
         <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
