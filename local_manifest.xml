@@ -41,7 +41,7 @@
 
         <!-- Remove android_hardware_qcom_data_ipacfg-mgr -->
 
-        <remove-project name="android_hardware_qcom_data_ipacfg-mgr" />
+        <!-- <remove-project name="android_hardware_qcom_data_ipacfg-mgr" /> -->
 
         <!-- Clang -->
 
@@ -51,7 +51,7 @@
 
         <!-- Patches -->
 
-        <project path="hardware/qcom/data/ipacfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrws" revision="arrow-13.0" />
+        <!-- <project path="hardware/qcom/data/ipacfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="arrws" revision="arrow-13.0" /> -->
         <project path="vendor/cherish" name="android_vendor_cherish" remote="raiden" revision="tiramisu" />
         <project path="system/core" name="android_system_core" remote="raiden" revision="tiramisu" />
 
