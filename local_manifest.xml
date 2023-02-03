@@ -6,9 +6,7 @@
 
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        <remote name="suraj" fetch="https://gitlab.com/ImSurajxD" />
-        <remote name="arrws" fetch="https://github.com/ArrowOS" />
-        <remote name="linag" fetch="https://github.com/LineageOS" />
+
         <!-- Device Trees -->
 
         <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/vanilla/cherish" />
@@ -20,7 +18,7 @@
 
         <!-- Vendor Trees -->
 
-        <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
+        <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a12/master" clone-depth="1" />
         <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="raiden" revision="a12/master" clone-depth="1" />
 
         <!-- Remove HALs -->
@@ -39,10 +37,6 @@
 
         <remove-project name="OTA" />
 
-        <!-- Clang -->
-
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="suraj" revision="master" clone-depth="1" />
-
         <!-- Proton Clang -->
 
         <!-- Patches -->
@@ -52,7 +46,7 @@
 
         <!-- HALs -->
 
-        <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="linag" revision="lineage-20.0-caf" />
+        <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
         <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-k4.9" />
 
         <!-- Cherish Sepolicy -->
