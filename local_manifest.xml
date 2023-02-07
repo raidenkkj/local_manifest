@@ -7,12 +7,16 @@
 
 <!-- Device Tree -->
 
-   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="lineage-18.1" />
+   <project path="device/asus/A001D" name="android_device_asus_A001D" remote="raidenkkj" revision="a11/rom/havoc" />
    <project path="vendor/asus/A001D" name="vendor_asus_A001D" remote="raidenkkj" revision="lineage-18.1" />
-   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="lineage-18.1" />
+   <project path="kernel/asus/A001D" name="kernel_asus_A001D" remote="raidenkkj" revision="11" />
    
 <!-- Removals -->
 
+   <remove-project name="android_vendor_havoc" />
+
 <!-- Additions -->
+
+   <project path="vendor/havoc" name="android_vendor_havoc" remote="raidenkkj" revision="eleven" />
 
 </manifest>
