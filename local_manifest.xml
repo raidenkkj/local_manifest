@@ -24,13 +24,13 @@
         <remove-project name="android_vendor_cherish" />
 
         <!-- Remove BananaDroid android_system_core -->
-        <remove-project name="android_system_core" />
+  <!--        <remove-project name="android_system_core" /> -->
 
         <!-- Proton Clang -->
 
         <!-- Patches -->
         <project path="vendor/banana" name="android_vendor_banana" remote="raiden" revision="13" />
-        <project path="system/core" name="android_system_core" remote="raiden" revision="13" />
+  <!--      <project path="system/core" name="android_system_core" remote="raiden" revision="13" /> -->
 
         <!-- HALs -->
         <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
