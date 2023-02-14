@@ -2,45 +2,42 @@
 
 <manifest>
 
-
-<!-- Remotes -->
-
+        <!-- Remotes -->
         <remote name="mit" fetch="https://github.com/Mi-Thorium" />
         <remote name="raiden" fetch="https://github.com/raidenkkj" />
-        
-<!-- Device Trees -->
 
-        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/xdroid" />
+        <!-- Device Trees -->
+        <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="raiden" revision="a13/rom/tests/xdroid" />
         <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="raiden" revision="a13/staging" />
 
-<!-- Kernels -->
+        <!-- Kernel -->
+        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="13.0"  clone-depth="1" />
 
-        <project path="kernel/xiaomi/sdm439" name="android_kernel_xiaomi_sdm439" remote="raiden" revision="tiramisu"  clone-depth="1" />
-
-<!-- Vendor Trees -->
-
+        <!-- Vendor Trees -->
         <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master" clone-depth="1" />
-        <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master" clone-depth="1" />
+        <project path="vendor/xiaomi/mithorium-common"  name="proprietary_vendor_xiaomi_mithorium-common" remote="raiden" revision="a12/master" clone-depth="1" />
 
-<!-- Remove HALs -->
-
+        <!-- Remove HALs -->
         <remove-project name="xd_hardware_qcom-caf_wlan" />
 
-<!-- Remove XdroidOSS Vendor -->
-
+        <!-- Remove xdroid Vendor -->
         <remove-project name="xd_vendor_xdroid" />
 
-<!-- Remove XdroidOSS android_system_core -->
+        <!-- Remove xdroid android_system_core -->
+<!--        <remove-project name="xd_system_core" /> -->
 
-        <remove-project name="xd_system_core" />
-		
-<!-- Addition -->
-     
-        <project path="vendor/miuicamera" name="vendor_miuicamera" remote="raiden" revision="12.1" />
-	<project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
-        <project path="system/core" name="xd_system_core" remote="raiden" revision="thirteen" />
-	<project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
-	<project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-caf-msm8953" /><project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
+        <!-- Proton Clang -->
+
+        <!-- Patches -->
+        <project path="vendor/xdroid" name="xd_vendor_xdroid" remote="raiden" revision="thirteen" />
+<!--        <project path="system/core" name="android_system_core" remote="raiden" revision="thirteen" /> -->
+
+        <!-- HALs -->
+        <project path="hardware/qcom-caf/wlan" name="msm8953_hals" remote="raiden" revision="13-wlan" />
+        <project path="hardware/mithorium-4.9" name="android_hardware_mithorium-4.9" remote="mit" revision="lineage-19.1-k4.9" />
+
+        <!-- Extras -->
+        <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="raiden" revision="lineage-18.1" />
         <project path="vendor/qcom/opensource/libfmjni"  name="android_vendor_qcom_opensource_libfmjni" remote="raiden" revision="arrow-11.0" />
-        
+
 </manifest>
